@@ -47,8 +47,10 @@ const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
 
 // sumir depois de 3 segundos
 setTimeout(function(){ 
-  elementoResposta.style.opacity = 0;}, 3000);
+  elementoResposta.style.opacity = 0;
   buttonPerguntar.removeAttribute('disabled')
+}, 3000);
+  
 
 }
 
